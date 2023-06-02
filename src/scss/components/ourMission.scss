@@ -1,0 +1,190 @@
+.ourMission{
+    min-height: max-content;
+    width:100%;
+    padding: 4rem 4rem;
+ 
+
+    &--hero-container{
+        max-width: 100rem;
+margin: 0 auto;
+
+display: flex;
+justify-content: center;
+
+&__container{
+    width: 83.333333%;
+            
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+   
+    align-items: center;
+
+    h1{
+        text-align: center;
+    }
+    p{
+        color:#8C8C8C;
+        padding-top: 2rem;
+        text-align: center;
+        max-width: 55rem;
+    }
+}
+    }
+}
+
+.footprintsSection{
+    width: 100%;
+    
+    background-color: #DAAC26;
+    color:white;
+    padding-top: 3rem;
+    &--container{
+        max-width: 100rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        &__container{
+            width: 83.333333%;
+            display: flex;
+            flex-direction: column;
+            gap:1rem;
+            align-items: center;
+
+            h1{
+                color: black;
+                text-align: center;
+                padding: 2.5rem 0;
+            }
+            p{text-align: center;
+            max-width: 65rem;
+            }
+        }
+    }
+
+
+ 
+}
+
+.Imcontainer{
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    color:black;
+    flex-direction: column;
+
+
+   
+
+    .topContainer{
+        
+        margin: 0 auto;
+        width: 83.333333%;
+        
+        display: flex;
+        justify-content: center;
+        gap:2rem;
+        align-items: center;
+
+
+        .card{
+            height: 10rem;
+            border-radius: 20px;
+            width: 25rem;
+            background: white;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            div{font-size: 1.5rem;}
+            p{font-size: 1.5rem; color: #DAAC26;}
+        }
+    }
+
+    .rightCurve,.leftCurve{
+        padding-top: 10rem;
+    }
+
+    .middleContainer{
+        
+        margin: 0 auto;
+        width: 83.333333%;
+      
+        display: flex;
+        justify-content: center;
+        gap:2rem;
+        align-items: center;
+
+
+        .card{
+            height: 10rem;
+            border-radius: 20px;
+            width: 25rem;
+            background: white;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            div{font-size: 1.5rem;}
+            p{font-size: 1.5rem; color: #DAAC26;}
+        }
+    }
+
+    .bottomContainer{
+        
+        margin: 0 auto;
+        width: 83.333333%;
+        display: flex;
+        padding-left: 7rem;
+        gap:2rem;
+        align-items: center;
+
+
+        .card{
+            height: 10rem;
+            border-radius: 20px;
+            width: 25rem;
+            background: white;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            div{font-size: 1.5rem;}
+            p{font-size: 1.5rem; color: #DAAC26;}
+        }
+    }
+
+    .lastContainer{
+        
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .card{
+            height: 10rem;
+            border-radius: 20px;
+            width: 25rem;
+            background: white;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            div{font-size: 1.5rem;}
+            p{font-size: 1.5rem; color: #DAAC26;}
+        }
+    }
+}
+

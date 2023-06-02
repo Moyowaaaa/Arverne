@@ -1,0 +1,50 @@
+@import './base/reset';
+
+@import 'utils/variables';
+@import 'utils/functions';
+@import 'utils/mixins';
+@import 'utils/utils';
+// @import 'utils/fonts';
+
+@import './base/base';
+
+@import 'shared/links';
+@import 'shared/typography';
+
+@import 'components/navbar.scss';
+@import 'components/titleSection.scss';
+@import 'components/heroSection.scss';
+@import 'components/ourMission.scss';
+@import 'components/ourServices.scss';
+@import 'components/QHSE.scss';
+
+@import 'components/footer.scss';
+
+
+@font-face{
+    font-family: 'monts-bold';
+    src:url('./assets/fonts/Montserrat-Bold.otf');
+    font-display: swap;
+  
+  }
+  
+  @font-face{
+    font-family: 'monts-blk';
+    src:url('./assets/fonts/Montserrat-Black.otf');
+    font-display: swap;
+  
+  }
+  @font-face{
+    font-family: 'marope-bold';
+    src:url('./assets/fonts/manrope-bold.otf');
+    font-display: swap;
+  
+  }
+  
+  @font-face{
+    font-family: 'marope';
+    src:url('./assets/fonts/manrope-regular.otf');
+    font-display: swap;
+  
+  }
+  
