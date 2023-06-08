@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
+import rightArrow from '../assets/images/rightArrow.svg'
+
 
 const TitleSection = () => {
   return (
@@ -20,7 +22,10 @@ const TitleSection = () => {
             the energy space.
           </p>
 
-          <button className="paragraphNormal">Connect with Us Today</button>
+          <button className="paragraphNormal">
+            <p>Connect with Us Today</p>
+            <img src={rightArrow} />
+            </button>
         </div>
       </div>
     </section>

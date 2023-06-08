@@ -1,0 +1,39 @@
+.main-colored-container{
+    background-color: #DAAC26;
+}
+
+.colored-navbar {
+    width: 100%;
+   
+    display: flex;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-sizing: border-box;
+    justify-content: center;
+    color:white;
+    align-self:flex;
+    background-color: #DAAC26;
+  
+    
+  
+    &--container{
+      display: flex;
+      align-items: center;
+      width: 83.333333%;
+     
+      justify-content: space-between;
+  
+      &__links-container{
+        display: flex;
+        gap:2rem
+      }
+      &__button-container{
+        padding: 0.5rem 2rem;
+        background: white;
+        color:#DAAC26;
+        border-radius: 30px;
+      }
+    }
+  }

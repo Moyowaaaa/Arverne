@@ -55,7 +55,7 @@ const OurMission = () => {
         <img src={leftCurve} className='leftCurve' />
 
         <div className='card'>
-            <div className='paragraphExtra'>CINQUIN FLEURIE</div>
+            <div className='paragraphExtra'>INTRAFOR COFOR</div>
 
         <p>1833</p>
         </div>
@@ -63,7 +63,7 @@ const OurMission = () => {
         <img src={left} />
 
         <div className='card'>
-        <div className='paragraphExtra'>SOCIETE HULSTER</div>
+        <div className='paragraphExtra'>INTRAFOR</div>
 
 <p>1857</p>
         </div>
@@ -81,7 +81,7 @@ const OurMission = () => {
         
 
         <div className='card'>
-            <div className='paragraphExtra'>CINQUIN FLEURIE</div>
+            <div className='paragraphExtra'>ENTREPOSE DRILLING</div>
 
         <p>1833</p>
         </div>
@@ -89,7 +89,8 @@ const OurMission = () => {
         <img src={rightArrow} />
 
         <div className='card'>
-        <div className='paragraphExtra'>SOCIETE HULSTER</div>
+        <div className='paragraphExtra'>COFOR (COMPAGNIE DE
+FORAGE)</div>
 
 <p>1857</p>
         </div>
@@ -102,7 +103,7 @@ const OurMission = () => {
         <div className='lastContainer'>
             <img src={slant} />
             <div className='card'>
-        <div className='paragraphExtra'>SOCIETE HULSTER</div>
+        <div className='paragraphExtra'>ARVERNE DRILLING</div>
 
 <p>1857</p>
         </div>

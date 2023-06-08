@@ -107,7 +107,7 @@
     border-radius: 20px;
     border: 3px solid var(--chakra-colors-primary);
     height: 2px;
-    background: linear-gradient(180deg, #86C53D 0%, #159BA2 149%);
+    background: linear-gradient(180deg, black 0%, #DAAC26 149%);
   }
   
 

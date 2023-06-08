@@ -1,0 +1,276 @@
+.qhse-banner{
+    height:40vh;
+    width: 100%;
+   
+    max-height: 40vh;
+    color:#8C8C8C;
+
+    h1{
+        text-align: center;
+
+    }
+   
+
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        z-index: -200;
+    }
+}
+
+.qhse-page-container{
+    color:#8C8C8C;
+    padding-top: 4rem;
+padding-bottom: 4rem;
+max-width: 100rem;
+margin: 0 auto;
+flex-direction: column;
+align-items: center;
+display: flex;
+box-sizing: border-box;
+
+h1{
+    color:black
+}
+
+&--container{
+    width: 83.333333%;
+            
+    display: flex;
+  flex-direction: column;
+    gap:4rem;
+    
+   align-items: center;
+   text-align: center;
+
+   .heroText{
+    max-width: 52rem;
+   }
+
+}
+
+&--certification-container{
+    width: 83.333333%;
+    margin-top: 6rem;
+    
+    display: flex;
+    gap:4rem;
+   
+
+    &__text-container{
+        height: 100%;
+        width: 100%;
+      
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        justify-content: flex-start;
+        p{
+            font-size: 18px;
+            max-width: 40rem;
+
+          
+        }
+
+    }
+
+}
+}
+
+.qhse-page-container--points-container{
+   
+   
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+
+    
+
+    &__point{
+        display: flex;
+        gap:2rem;
+        width: 100%;
+     
+        align-items: start;
+        
+    }
+
+    
+}
+
+.points{
+    width: 75%;
+    margin: 0 auto;
+    
+}
+
+.certification-points-container{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+
+    &__point{
+        display: flex;
+        align-items: center;
+        gap:1rem;
+
+       
+    }
+}
+
+
+.hse-banner{
+    height: 60vh;
+    min-height: 60vh;
+    max-height: 60vh;
+    width: 100%;
+    
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    h1{
+        max-width: 60rem;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        bottom:50vh;
+    
+        color: white;
+
+        span{
+            color: #DAAC26;
+        }
+    }
+}
+
+.hse-container{
+    color:#8C8C8C;
+    padding-top: 4rem;
+padding-bottom: 4rem;
+max-width: 100rem;
+margin: 0 auto;
+flex-direction: column;
+align-items: center;
+display: flex;
+box-sizing: border-box;
+
+
+&--container{
+    width: 83.333333%;
+   
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+
+    h1{
+        text-align: center;
+        max-width: 50rem;
+        margin:0 auto;
+        color:black
+    }
+
+    p{
+        text-align: center;
+        max-width: 50rem;
+        margin:0 auto;
+        color: #8C8C8C;
+    }
+
+    img{
+        height: initial;
+        width: 90%;
+        margin:  0 auto;
+        margin-top: 2rem;
+    }
+    
+}
+}
+
+.golden-rules-container{
+    color:#8C8C8C;
+    padding-top: 4rem;
+padding-bottom: 4rem;
+max-width: 100rem;
+margin: 0 auto;
+flex-direction: column;
+align-items: center;
+display: flex;
+box-sizing: border-box;
+
+
+
+&--container{
+    width: 83.333333%;
+   
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+   
+
+    h1{
+        text-align: center;
+        max-width: 50rem;
+        margin:0 auto;
+        color:black
+    }
+
+    p{
+        text-align: center;
+        max-width: 50rem;
+        margin:0 auto;
+        color: #8C8C8C;
+    }
+
+    &__rules-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); // Set four columns with equal width
+             // Adjust the gap between cards as desired
+             gap:1rem;
+          
+            .rule-card {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              width: 100%;
+              justify-content: space-between;
+              box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+
+           
+              h1{
+                padding:1rem 0;
+                font-size: 24px;
+              }
+
+              img{
+                width: 100%;
+                object-fit: cover;
+              }
+    }
+
+      // Responsive adjustments
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media screen and (max-width: 900px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: 600px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+}
+
+    
+}
+

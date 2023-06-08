@@ -7,6 +7,7 @@ import reactLogo from './assets/react.svg'
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 
 import Home from './pages/Home'
+import QHSE from './pages/QHSE'
 
 
 
@@ -18,6 +19,7 @@ function App() {
     <BrowserRouter>
     <Routes>
     <Route path="/" element={<Home />} />
+    <Route path="/qhse" element={<QHSE />} />
     </Routes>
     </BrowserRouter>
   )
