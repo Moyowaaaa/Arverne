@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
 
-    <div className='ContactSection'>
+    <div className='ContactSection' id="footer">
 
     <div className='ContactSection--container'>
 

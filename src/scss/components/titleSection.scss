@@ -1,14 +1,22 @@
 .titleSection{
     min-height:100vh;
     height: 100vh;
-    background:url("../assets/images/TitleBackground.png");
-    background-size: cover;
+    
     
     box-sizing: border-box;
     color: white;
     display: flex;
     flex-direction: column;
     
+
+    video{
+        position: absolute;
+        top:0;
+        z-index: -200;
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+    }
    
 
     &--container{

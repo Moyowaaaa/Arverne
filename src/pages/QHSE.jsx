@@ -14,7 +14,7 @@ import rule7 from '../assets/images/rule7.png'
 import rule8 from '../assets/images/rule8.png'
 import rule9 from '../assets/images/rule9.png'
 import rule10 from '../assets/images/rule10.png'
-
+import qhseVideo from '../assets/images/qhseVideo.mp4'
 
 
 const QHSE = () => {
@@ -35,7 +35,7 @@ const QHSE = () => {
   return (
     <>
       <PageContentLayout>
-        <div className="qhse-banner">
+        <div className="qhse-banner" id="qhse">
           <img src={qhseOverlay} alt="" />
           <div className="flex flex-col gap-6 w-10/12 items-center mx-auto relative bottom-[15vh] lg:bottom-[30vh] text-white">
             <h1
@@ -148,7 +148,7 @@ max-w-[45rem] text-center
         </div>
 
         <div className="hse-banner">
-          <img src={qhseOverlay} alt="" />
+          <video src={qhseVideo} alt="" autoPlay muted loop className="video"/>
           {/* <div className="flex flex-col gap-6 w-10/12 items-center mx-auto relative bottom-[15vh] lg:bottom-[40vh] text-white"> */}
           <h1
             className="titleMedium
@@ -197,7 +197,7 @@ max-w-[45rem] text-center
 
             <div className="golden-rules-container--container__rules-container">
               {goldenRules.map((goldenRule,index) => (
-                <div className="rule-card">
+                <div className="rule-card" key={index}>
                   <h1 className="titleSemi">{goldenRule.rule}</h1>
                   <img src={goldenRule.image} />
                 </div>

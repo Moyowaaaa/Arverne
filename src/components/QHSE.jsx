@@ -1,4 +1,6 @@
 import React from 'react'
+import qhseJumbotronbackgroundVideo from '../assets/images/qhseVideo.mp4'
+
 
 const QHSE = () => {
   return (
@@ -40,6 +42,7 @@ const QHSE = () => {
     </div>
 
     <div className='qsheJumbotron'>
+        <video src={qhseJumbotronbackgroundVideo} alt="" autoPlay loop muted />
             <h1 className='titleMedium'>Arverne Drilling believes in <span>innovation</span> and <span>continuous improvement</span> which is the core of our sustainability strategy which focuses on; Governance, Enviroment, Health & Safty and People.</h1>
         </div>
 

@@ -7,7 +7,7 @@ import rigSk11 from '../assets/images/rig11.png'
 const Services = () => {
   return (
    <>
-   <section className='ourServices'>
+   <section className='ourServices' id="services">
 
     <div className='ourServices--container'>
     <h1 className='titleSemi'>Our Services</h1>
