@@ -35,7 +35,11 @@ justify-content: center;
 
 .footprintsSection{
     width: 100%;
-    
+    background-image: url('../assets/images/footprintsBg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y:13rem ;
+    background-attachment: fixed;
     background-color: #DAAC26;
     color:white;
     padding-top: 3rem;
@@ -86,6 +90,7 @@ justify-content: center;
         width: 83.333333%;
         
         display: flex;
+        // justify-content: center;
         justify-content: center;
         gap:2rem;
         align-items: center;
@@ -113,7 +118,7 @@ justify-content: center;
 
     .middleContainer{
         
-        margin: 0 auto;
+        margin: 4rem auto;
         width: 83.333333%;
       
         display: flex;
@@ -143,9 +148,10 @@ justify-content: center;
         margin: 0 auto;
         width: 83.333333%;
         display: flex;
-        padding-left: 7rem;
+       
         gap:2rem;
         align-items: center;
+        justify-content: center;
 
 
         .card{

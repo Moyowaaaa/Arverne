@@ -48,4 +48,43 @@ box-sizing: border-box;
         }
     }
 }
+
+
+@media screen and (max-width:485px) {
+    .heroSection{
+        &--container{
+            width: 100;
+            flex-direction: column-reverse;
+          
+
+            &__text-container, &__stats-container{
+                width: 100%;
+              
+
+        }
+
+        &__text-container{
+            h1{
+                font-size: 1.5rem;
+                
+            } 
+            p{
+                font-size: 0.9rem;
+            }
+        }
+
+        &__stats-container{
+        
+            
+            h1{
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+
+}
 }

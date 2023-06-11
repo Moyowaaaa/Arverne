@@ -1,12 +1,20 @@
 import React from "react";
 import Navbar from "./Navbar";
-import rightArrow from '../assets/images/rightArrow.svg'
-import mainTitleVideo from '../assets/images/mainTitleVideo.mp4'
+import rightArrow from "../assets/images/rightArrow.svg";
+import mainTitleVideo from "../assets/images/mainTitleVideo.mp4";
 
 const TitleSection = () => {
+  const goToContactUs = () => {
+    setTimeout(() => {
+      document.querySelector("#footer")?.scrollIntoView({
+        behavior: "smooth",
+      });
+    }, 500);
+  };
+
   return (
     <section className="titleSection" id="home">
-      <video src={mainTitleVideo} loop muted autoPlay/>
+      <video src={mainTitleVideo} loop muted autoPlay />
       <Navbar />
       <div className="titleSection--container">
         <div className="titleSection--container__sub-container">
@@ -23,10 +31,10 @@ const TitleSection = () => {
             the energy space.
           </p>
 
-          <button className="paragraphNormal">
+          <button className="paragraphNormal" onClick={() => goToContactUs()}>
             <p>Connect with Us Today</p>
             <img src={rightArrow} />
-            </button>
+          </button>
         </div>
       </div>
     </section>

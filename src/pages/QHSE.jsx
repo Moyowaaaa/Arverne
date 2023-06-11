@@ -37,7 +37,7 @@ const QHSE = () => {
       <PageContentLayout>
         <div className="qhse-banner" id="qhse">
           <img src={qhseOverlay} alt="" />
-          <div className="flex flex-col gap-6 w-10/12 items-center mx-auto relative bottom-[15vh] lg:bottom-[30vh] text-white">
+          <div className="h1container">
             <h1
               className="text-[2.125rem] text-center lg:text-left lg:text-[3.125rem] titleExtraBold text-white
 max-w-[45rem] text-center

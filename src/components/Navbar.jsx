@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import logo from '../assets/images/Logo.svg'
 import blackLogo from '../assets/images/footerLogo.svg'
-import { useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 
 
 const Navbar = () => {
   const navigate = useNavigate()
   const [scrolled,setIsScrolled] = useState(false)
-  
+  const {pathname} = useLocation()
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -84,11 +85,11 @@ const Navbar = () => {
             </div>
 
             <div className='navbar--container__links-container'>
-              <p onClick={() => goHome()}>Home</p>
-              <p onClick={() => goToAboutUs()}>About us</p>
-              <p onClick={() => goToServices()}>Our Services</p>
-              <p >Our rig</p>
-              <p onClick={() => goToQhse()}>QHSE</p>
+              <p className={`link ${pathname === '/' ? 'activelink' : ''}`} onClick={() => goHome()}>Home</p>
+              <p className={`link`} onClick={() => goToAboutUs()}>About us</p>
+              <p className={`link`} onClick={() => goToServices()}>Our Services</p>
+              <p className={`link`} >Our rig</p>
+              <p className={`link ${pathname === 'qhse' ? 'activelink' : ''}`} onClick={() => goToQhse()}>QHSE</p>
             </div>
 
 

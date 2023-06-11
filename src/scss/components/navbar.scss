@@ -32,6 +32,20 @@
       border-radius: 30px;
     }
   }
+
+  @media screen and (max-width:900px) {
+    .navbar {
+      &--container{
+        width: 100%;
+
+        &__links-container,  &__button-container{
+          display: none;
+        }
+    }
+  }
+  }
+
+
 }
 
 .isScrolled{
