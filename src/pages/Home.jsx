@@ -12,12 +12,12 @@ import GlobalFootprints from '../components/GlobalFootprints'
 const Home = () => {
   return (
     <>
-    {/* <TitleSection /> */}
+    <TitleSection />
      <HeroSection />
-    {/* <OurMission /> */}
-     {/* <GlobalFootprints />  */}
+    <OurMission />
+     <GlobalFootprints /> 
     <Services />
-    {/* <QHSE />  */}
+    <QHSE /> 
     <Footer/>
     </>
   )

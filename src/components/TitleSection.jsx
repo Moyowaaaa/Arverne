@@ -14,8 +14,8 @@ const TitleSection = () => {
 
   return (
     <section className="titleSection" id="home">
-      <video src={mainTitleVideo} loop muted autoPlay />
-      <Navbar />
+      <video src={mainTitleVideo} loop muted autoPlay /> 
+       <Navbar />
       <div className="titleSection--container">
         <div className="titleSection--container__sub-container">
           <h1 className="titleHeavy">

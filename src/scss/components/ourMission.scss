@@ -1,7 +1,7 @@
 .ourMission{
     min-height: max-content;
     width:100%;
-    padding: 4rem 4rem;
+    // padding: 4rem 4rem;
  
 
     &--hero-container{
@@ -30,6 +30,39 @@ justify-content: center;
         max-width: 55rem;
     }
 }
+    }
+
+    @media screen and (max-width:485px) {
+        .ourMission{
+            min-height: max-content;
+            width:90%;
+            padding: 0 5% !important;
+ 
+            &--hero-container{
+           
+                &__container{
+                    width: 100%;
+                    min-width: 100%;
+
+                    max-width: 100%;
+               
+
+                    p{
+                        width: 90% !important;
+                     
+                    }
+                }
+            }
+        }
+
+    }
+    @media screen and (min-width:1000px) {
+        .ourMission{
+            min-height: max-content;
+            width:100%;
+            padding: 4rem 4rem;
+ 
+        }
     }
 }
 
@@ -191,6 +224,20 @@ justify-content: center;
             div{font-size: 1.5rem;}
             p{font-size: 1.5rem; color: #DAAC26;}
         }
+    }
+}
+
+
+@media screen and (max-width:485px) {
+    .footprintsSection{
+        padding-top: -40rem !important;
+    }
+
+    .Imcontainer{
+        scale: 0.45;
+        width: 20rem;
+        height: 40rem;
+        padding-top: -10rem;
     }
 }
 

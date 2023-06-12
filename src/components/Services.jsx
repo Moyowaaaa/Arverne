@@ -22,6 +22,17 @@ const Services = () => {
     <div className='rigs-container--textContainer paragraphMedium'>
     RIG SK 7
     </div>
+
+    <div className="overlay">
+                    <div className="w-full  h-[3rem] flex justify-center items-center text-sm">
+                      <h1 className="paragraphMedium">RIG SK7</h1>
+                    </div>
+
+                    <div className="text-[#8c8c8c] p-2 text-center paragraph">
+                      Hola
+                    </div>
+                  </div>
+
     </div>
 
     <div className='rigs-container--imageContainer'>

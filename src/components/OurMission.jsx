@@ -46,13 +46,13 @@ const OurMission = () => {
 <p>1857</p>
         </div>
 
-        {/* <img src={rightCurve} className='rightCurve' /> */}
+        <img src={rightCurve} className='rightCurve' />
 
 
         </div>
 
         <div className='middleContainer'>
-        {/* <img src={leftCurve} className='leftCurve' /> */}
+        <img src={leftCurve} className='leftCurve' />
 
         <div className='card'>
             <div className='paragraphExtra'>INTRAFOR COFOR</div>
