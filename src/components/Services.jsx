@@ -1,6 +1,7 @@
 import React from 'react'
 import rigSk7 from '../assets/images/rig7.png'
 import rigSk11 from '../assets/images/rig11.png'
+import { Link } from 'react-router-dom'
 
 
 
@@ -16,8 +17,9 @@ const Services = () => {
 <p className='paragraphNormal'>Our services include but are not limited to the provision of Workover rigs. Workover rigs, also known as service rigs or pulling units, are mobile pieces of equipment designed to perform maintenance, repair, and intervention operations on oil and gas wells. </p>
 <p className='paragraphNormal'>Workover rigs are typically used to extend the life of a producing well, restore production levels, or decommission a well that has reached the end of its productive life. They can also be used for “invasive” services like wireline or snubbing (borehole assembly) once the wells have been killed.</p>
     
-    <div className='rigs-container'>
+    <div className='rigs-container' id="ourRig">
     <div className='rigs-container--imageContainer'>
+    <Link to={'/sk7'}>
     <img src={rigSk7} />
     <div className='rigs-container--textContainer paragraphMedium'>
     RIG SK 7
@@ -32,17 +34,24 @@ const Services = () => {
                       Hola
                     </div>
                   </div>
+                  </Link>
 
     </div>
 
+    
     <div className='rigs-container--imageContainer'>
+    <Link to={'/sk11'}>
+
     <img src={rigSk11} />
 
     <div className='rigs-container--textContainer paragraphMedium'>
     RIG SK 11
 </div>
+</Link>
+  
     </div>
         
+   
        
     </div>
     </div>

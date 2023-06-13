@@ -4,6 +4,8 @@ import rightCurve from '../assets/images/rightCurve.svg'
 import left from '../assets/images/left.svg'
 import leftCurve from '../assets/images/leftCurve.svg'
 import slant from '../assets/images/slant.svg'
+import history from '../assets/images/history.png'
+
 
 const OurMission = () => {
   return (
@@ -29,8 +31,13 @@ const OurMission = () => {
 <p className='paragraphNormal'>Founded in 1833, CINQUIN FLEURIE, then in 1857, it became SOCIETE HULSTER. A hundred years after in 1957, it became INTRAFOR and in 1967, INTRAFOR CO</p>
 <p className='paragraphNormal'>In 1988, COFOR (COMPAGNIE DE FORAGE), and it 2016, ENTREPOSE DRILLING.It became ARVERNE DRILLING in 2020 retaining the company’s full operational competencies and expertise.</p>
     </div>
+
+    <div className='im'>
+    <img src={history} alt="Our History"/>
     
-    <div className='Imcontainer'>
+    </div>
+
+    {/* <div className='Imcontainer'>
         <div className='topContainer'>
         <div className='card'>
             <div className='paragraphExtra'>CINQUIN FLEURIE</div>
@@ -110,7 +117,7 @@ FORAGE)</div>
         </div>
       
         
-    </div>
+    </div> */}
 </div>
 
 

@@ -26,7 +26,7 @@ const Footer = () => {
 
             <textarea className='ContactSection--container__textArea' placeholder='Your Message'></textarea>
 
-            <button className='paragraphNormal'>Contact us</button>
+            <button className='paragraphNormal btn-effect'>Contact us</button>
 </div>
     </div>
 

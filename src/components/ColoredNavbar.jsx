@@ -50,6 +50,16 @@ const ColoredNavbar = () => {
     }, 500);
   };
 
+  const goToOurRig = () => {
+    setOpenMenu(false)
+    navigate('/')
+    setTimeout(() => {
+      document.querySelector("#ourRig")?.scrollIntoView({
+        behavior: "smooth",
+      });
+    }, 500);
+  }
+
   const goToServices = () => {
     navigate('/')
     setTimeout(() => {
@@ -89,14 +99,14 @@ const ColoredNavbar = () => {
         <p className={`link ${pathname === '' ? 'activeLink' : ''}`} onClick={() => goHome()}>Home</p>
               <p className={`link`} onClick={() => goToAboutUs()}>About us</p>
               <p className={`link`} onClick={() => goToServices()}>Our Services</p>
-              <p className={`link`} >Our rig</p>
+              <p className={`link`} onClick={() => goToOurRig()}>Our rig</p>
               <p className={`link ${pathname === '/qhse' ? 'activelink' : ''}`} onClick={() => goToQhse()}>QHSE</p>
             </div>
 
 
         <div
         onClick={() => goToContactUs()}
-        className='colored-navbar--container__button-container'>
+        className='colored-navbar--container__button-container btn-effect'>
           Contact Us
         </div>
 
@@ -155,7 +165,7 @@ const ColoredNavbar = () => {
 
           <div
             className={`link`}
-          
+            onClick={() => goToOurRig()}
           >
             Our rig
           </div>

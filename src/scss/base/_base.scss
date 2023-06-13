@@ -96,3 +96,13 @@ button,
   .rigs-container--textContainer:hover .overlay {
     height: 75%;
   }
+
+  .btn-effect:hover{
+    box-shadow: inset 20rem 0 0 0 adjust-hue(black, 10deg);
+    background: linear-gradient(180deg, black 0%, #DAAC26 149%);
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+    scale:1.1;
+    border:none
+  }

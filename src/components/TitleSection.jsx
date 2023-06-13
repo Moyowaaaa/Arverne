@@ -31,7 +31,7 @@ const TitleSection = () => {
             the energy space.
           </p>
 
-          <button className="paragraphNormal" onClick={() => goToContactUs()}>
+          <button className="paragraphNormal btn-effect" onClick={() => goToContactUs()}>
             <p>Connect with Us Today</p>
             <img src={rightArrow} />
           </button>

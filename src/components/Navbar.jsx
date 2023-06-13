@@ -53,6 +53,16 @@ const Navbar = () => {
     }, 500);
   }
 
+  const goToOurRig = () => {
+    setOpenMenu(false)
+
+    setTimeout(() => {
+      document.querySelector("#ourRig")?.scrollIntoView({
+        behavior: "smooth",
+      });
+    }, 500);
+  }
+
   const goToQhse = () => {
     setOpenMenu(false)
 
@@ -96,14 +106,14 @@ const Navbar = () => {
               <p className={`link ${pathname === '/' ? 'activelink' : ''}`} onClick={() => goHome()}>Home</p>
               <p className={`link`} onClick={() => goToAboutUs()}>About us</p>
               <p className={`link`} onClick={() => goToServices()}>Our Services</p>
-              <p className={`link`} >Our rig</p>
+              <p className={`link`} onClick={() => goToOurRig()}>Our rig</p>
               <p className={`link ${pathname === 'qhse' ? 'activelink' : ''}`} onClick={() => goToQhse()}>QHSE</p>
             </div>
 
 
             <div 
             onClick={() => goToContactUs()}
-            className='navbar--container__button-container'>
+            className='navbar--container__button-container btn-effect'>
               Contact Us
             </div>
 
@@ -161,7 +171,7 @@ const Navbar = () => {
 
           <div
             className={`link`}
-          
+            onClick={() => goToOurRig()}
           >
             Our rig
           </div>
@@ -174,7 +184,7 @@ const Navbar = () => {
                   </div>
 
 
-                  <div className=''
+                  <div className='btn-effect'
                       onClick={() => goToContactUs()}
                   >Contact Us</div>
         </div>

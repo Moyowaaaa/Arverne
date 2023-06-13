@@ -229,15 +229,7 @@ text-fill-color: transparent;
     
   }
 
-  .btn-effect:hover{
-    box-shadow: inset 20rem 0 0 0 adjust-hue(#86C53D, 10deg);
-    background: linear-gradient(180deg, #86C53D 0%, #159BA2 149%);
-    color: white;
-    transition: 1s;
-    cursor: pointer;
-    scale:1.1
-  }
-
+ 
   .strategiesCard:hover{
     
     background: linear-gradient(180deg, #86C53D 0%, #159BA2 149%);
